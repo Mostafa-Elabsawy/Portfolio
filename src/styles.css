@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import "primeicons/primeicons.css";
+body{
+    background-color: #212428;
+    color: #E5E7EB;
+    height: 1000vh;
+}
+/* 
+.newtool >div {
+    justify-content: center;
+    border: red 2px solid;
+  width: 100%;
+  width: auto;
+} */
+ .newtool >div{
+    /* border:red 2px solid */
+ }
+@media (max-width:1024px)
+{
+    .newtool .p-toolbar-center,.newtool .p-toolbar-start,.p-toolbar-end {
+        width: 100%;
+    }
+}
+.newtool .p-toolbar-center ul{
+
+    transition: height 0.5s ease-in-out !important;
+}
