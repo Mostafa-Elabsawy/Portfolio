@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+.my-image
+{
+   position: relative;
+}
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "SoftwareEngineer";
+    animation: words 16s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #212428;
+    border-left: 2px solid var(--p-primary-500);
+    right: -8px;
+    animation: cursor .8s infinite, typing 16s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid transparent;
+    }
+}
+
+/* 🔹 4 WORDS (each 25%) */
+@keyframes words {
+    0%,25%{
+        content: "Software Engineer";
+    }
+    26%,50%{
+        content: "Angular Developer";
+    }
+    51%,75%{
+        content: "Node js Developer";
+    }
+    76%,100%{
+        content: "Full-Stack Developer";
+    }
+}
+
+@keyframes typing {
+    6%,12%,31%,37%,56%,62%,81%,87%{
+        width: 0;
+    }
+    0%,18%,25%,43%,50%,68%,75%,93%,100%{
+        width: calc(100% + 8px);
+    }
+}
+.social div{
+  background-color: #202327;
+  padding: 20px;
+  border-radius: 10px;
+  aspect-ratio:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:transform 0.6s ease , color 0.1s ease;
+  box-shadow: 0px 0px 15px #ffffff1c;
+  cursor: pointer;
+}
+.social div:hover
+{
+  color:var(--p-primary-500);
+  transform: translateY(-6px);
+
+}
+.social div i{
+  font-size: 1.6rem;
+}
