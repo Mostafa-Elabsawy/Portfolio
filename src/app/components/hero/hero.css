@@ -2,6 +2,8 @@
 .my-image
 {
    position: relative;
+     box-shadow: 0px 0px 30px 10px #ffffff1a;
+
 }
 .animated-text span{
     position: relative;
@@ -53,7 +55,8 @@
         width: calc(100% + 8px);
     }
 }
-.social div{
+.social a{
+  display: inline-block;
   background-color: #202327;
   padding: 20px;
   border-radius: 10px;
@@ -61,16 +64,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition:transform 0.6s ease , color 0.1s ease;
+  transition:transform 0.2s ease , color 0.2s ease;
   box-shadow: 0px 0px 15px #ffffff1c;
   cursor: pointer;
 }
-.social div:hover
+.social a:hover
 {
   color:var(--p-primary-500);
-  transform: translateY(-6px);
+  transform: translateY(-10px);
 
 }
-.social div i{
+.social a i{
   font-size: 1.6rem;
 }

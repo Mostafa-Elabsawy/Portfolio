@@ -26,7 +26,7 @@
 }
 body {
   background-color: #212428;
-  height: 200vh;
+  /* height: 200vh; */
   @apply font-[Montserrat];
 }
 @media (max-width: 1024px) {
