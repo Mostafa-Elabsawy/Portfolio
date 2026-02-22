@@ -1,0 +1,36 @@
+.skill {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px 0;
+  font-family: system-ui, sans-serif;
+  --value:100%;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.progress {
+  height: 10px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #10b981, #06b6d4);
+  animation: fillBar 1.8s ease forwards;
+}
+
+@keyframes fillBar {
+  to {
+    width: var(--value);
+  }
+}
