@@ -1,5 +1,52 @@
-<div
-        class="hidden lg:block my-image relative rounded-2xl border-primary-600 overflow-hidden w-[30%] glow">
-        <img src="./images/me.vertical.jpeg" alt="avatar"
-            class="w-full h-full object-cover">
-    </div>
+<section class="h-screen container mx-auto">
+    <h1 class="text-5xl block text-center text-(--main) font-bold">About Me</h1>
+    <section
+        class=" mx-auto p-5 flex flex-col justify-between items-center mt-6 gap-8">
+        <div id="aboutme"
+            class="flex flex-col justify-center lg:text-lg lg:w-[90%] text-base text-[var(--textcolor2)] bg-[#1f2125] p-6 rounded-2xl space-y-4">
+
+            <p class="flex items-start">
+                <i class="fa fa-user mr-3 mt-1 "></i>
+                Hi, I’m Mostafa Ehab, a software engineer who has been
+                passionate about programming from a young age. My goal has
+                always been to turn that passion into a professional career.
+            </p>
+
+            <p class="flex items-start">
+                <i class="fa fa-brain mr-3 mt-1"></i>
+                Before diving into building software applications, I began my
+                journey through the ICPC competitive programming community,
+                where I developed strong problem-solving skills, logical
+                thinking, and the ability to write efficient, optimized code.
+            </p>
+
+            <p class="flex items-start">
+                <i class="fa fa-rocket mr-3 mt-1"></i>
+                Today, I focus on building reliable, high-performance, and
+                scalable web applications, combining solid technical
+                fundamentals with a commitment to creating smooth and dependable
+                user experiences.
+            </p>
+
+        </div>
+        <div class="w-full flex-col flex items-stretch">
+            <!-- <app-skills class></app-skills> -->
+            <nav class="w-full" id="nav2">
+                <ul
+                    class="flex   gap-4 bg-[#1F2125] rounded-xl p-2 w-auto justify-center">
+                    <li class>
+                        <a href="#" routerLink="/education"  class="nav-link ">Eductaion</a>
+                    </li>
+                    <li class>
+                        <a href="#" routerLink="/skills"
+                            class="nav-link">Skills</a>
+                    </li>
+                    <li class>
+                        <a href="#nav2" class="nav-link">Experience</a>
+                    </li>
+                </ul>
+            </nav>
+            <router-outlet class="w-full"></router-outlet>
+        </div>
+    </section>
+</section>

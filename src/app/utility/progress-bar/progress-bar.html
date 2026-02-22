@@ -1,11 +1,11 @@
-<div class="skill">
+<section class="skill mx-auto">
     <div class="skill-header" [style]="`--color:${color()}`" >
             <span>
                 <ng-content></ng-content>
             </span>
         <span>{{value()}}%</span>
     </div>
-    <div class="progress">
+    <div class="progress mx-auto">
         <div class="progress-bar" [style]="`--value:${value()}%; --bar_color:${bar_color()}`"></div>
     </div>
-</div>
+</section>

@@ -16,33 +16,28 @@
                 <ul class="toggler flex flex-col items-start  gap-y-4 lg:flex-row xl:gap-x-12 lg:gap-x-8 overflow-hidden lg:h-auto h-0"
                     [ngClass]="{'h-0 ':menuOpen() }">
                     <li>
-                        <a [class.active]="activetab() === 'Home'"
-                            class="nav-link" (click)="scrollTo('Home')">
-                            <span>Home </span> <i class="pi pi-home"></i>
+                        <a href="#" class="nav-link" [class.active]="activetab() === 'Home'" (click)="scrollTo('Home')">
+                        <span>Home</span> <i class="pi pi-home"></i>
                         </a>
                     </li>
                     <li>
-                        <a [class.active]="activetab() === 'About'"
-                            class="nav-link" (click)="scrollTo('About')">
-                            <span>About </span><i class="pi pi-user"></i>
+                        <a href="#" class="nav-link" [class.active]="activetab() === 'About'" (click)="scrollTo('About')">
+                            <span>About</span> <i class="pi pi-user"></i>
                         </a>
                     </li>
                     <li>
-                        <a [class.active]="activetab() === 'Education'"
-                            class="nav-link" (click)="scrollTo('Education')">
-                            <span>Education </span> <i class="pi pi-graduation-cap"></i>
+                        <a href="#" class="nav-link" [class.active]="activetab() === 'Education'" (click)="scrollTo('Education')">
+                            <span>Education</span> <i class="pi pi-graduation-cap"></i>
                         </a>
                     </li>
                     <li>
-                        <a [class.active]="activetab() === 'Projects'"
-                            class="nav-link" (click)="scrollTo('Projects')">
-                            <span>Projects </span> <i class="pi pi-briefcase"></i>
+                        <a href="#" class="nav-link" [class.active]="activetab() === 'Projects'" (click)="scrollTo('Projects')">
+                            <span>Projects</span> <i class="pi pi-briefcase"></i>
                         </a>
                     </li>
                     <li>
-                        <a [class.active]="activetab() === 'Contact'"
-                            class="nav-link" (click)="scrollTo('Contact')">
-                            <span>Contact Me </span> <i class="pi pi-phone"></i>
+                        <a href="#" class="nav-link" [class.active]="activetab() === 'Contact'" (click)="scrollTo('Contact')">
+                            <span>Contact Me</span> <i class="pi pi-phone"></i>
                         </a>
                     </li>
                 </ul>

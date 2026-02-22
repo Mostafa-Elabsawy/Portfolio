@@ -1,0 +1,40 @@
+@import "tailwindcss";
+.nav-link {
+  @apply  relative px-1 py-1 text-gray-400 font-medium cursor-pointer no-underline;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--p-primary-500);
+}
+nav > ul >li
+{
+    @apply text-center flex-1  py-2 rounded-2xl ;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 h-0.5 ;
+  background-color: var(--p-primary-500);
+  left: 50%;
+  width: 0;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.nav-link:active::after {
+  left: 0;
+  width: 100%;
+}
+
+
+.nav-link.active::after {
+  left: 0;
+  width: 100%;
+}
+#aboutme > p >i{
+    @apply text-3xl ;
+    color: var(--p-primary-500);
+}

@@ -3,11 +3,12 @@ import { Navbar } from './components/navbar/navbar';
 import { Hero } from "./components/hero/hero";
 import { Trash } from './utility/trash/trash';
 import { ProgressBar } from "./utility/progress-bar/progress-bar";
+import { AboutMe } from './components/about-me/about-me';
 // import { Trash } from './components/trash/trash';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Hero, Trash, ProgressBar],
+  imports: [Navbar, Hero, Trash, ProgressBar, AboutMe],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

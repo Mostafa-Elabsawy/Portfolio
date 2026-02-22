@@ -46,10 +46,7 @@ export class Navbar {
     this.menuOpen.update((v : boolean)   => !v);
   }
 
-  isMobile(): boolean {
-    return window.innerWidth < 1024; // Tailwind lg breakpoint
-  }
   scrollTo(section: string) {
-    this.activetab.set(section);
+    // this.activetab.set(section);
   }
 }

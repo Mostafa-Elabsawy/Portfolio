@@ -9,6 +9,6 @@ import { Component, input } from '@angular/core';
 })
 export class ProgressBar {
   value = input('100');
-  color = input('#9CA3AF');
-  bar_color = input('linear-gradient(90deg, #10b981, #06b6d4)');
+  color = input('#fff');
+  bar_color = input('var(--grad2');
 }

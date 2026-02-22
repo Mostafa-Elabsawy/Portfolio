@@ -8,6 +8,17 @@
   --textcolor1:#9CA3AF;
   --textcolor2:#C4CFDE;
   --line: #4B5563;
+  --line2:#10b981;
+  --grad2:linear-gradient(
+    90deg,
+    hsl(143deg 84% 39%) 0%,
+    hsl(162deg 100% 33%) 32%,
+    hsl(178deg 100% 28%) 68%,
+    hsl(190deg 100% 29%) 77%,
+    hsl(197deg 100% 27%) 88%,
+    hsl(201, 96%, 22%) 100%
+  );
+
 }
 body {
   background-color: #212428;
