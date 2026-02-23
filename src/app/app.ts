@@ -4,12 +4,15 @@ import { Hero } from "./components/hero/hero";
 import { Trash } from './utility/trash/trash';
 import { ProgressBar } from "./utility/progress-bar/progress-bar";
 import { AboutMe } from './components/about-me/about-me';
+import { AnimateOnScrollModule } from 'primeng/animateonscroll';
+import { Projects } from './components/projects/projects';
 // import { Trash } from './components/trash/trash';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Hero, Trash, ProgressBar, AboutMe],
+  imports: [Navbar, Hero, Trash, Projects, AboutMe, AnimateOnScrollModule],
   templateUrl: './app.html',
+  standalone: true,
   styleUrl: './app.css'
 })
 export class App {

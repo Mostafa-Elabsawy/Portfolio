@@ -1,0 +1,24 @@
+@import "tailwindcss";
+  .degree-card {
+    @apply relative p-5 rounded-xl 
+    bg-linear-to-br from-[#22252b] to-[#1b1d22]
+    border border-white/5
+    transition-all duration-300
+    hover:border-emerald-400/40
+    hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .degree-title {
+    @apply text-lg font-semibold flex flex-wrap gap-1;
+    color: var(--textcolor1);
+  }
+
+  .degree-sub {
+    @apply text-sm mt-1;
+    color: var(--textcolor2);
+  }
+
+  .degree-meta {
+    @apply text-xs font-medium text-emerald-400 mt-2 inline-block;
+  }
+
