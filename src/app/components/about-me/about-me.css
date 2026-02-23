@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .nav-link {
-  @apply  relative block py-4 w-full text-xl font-medium cursor-pointer no-underline;
+  @apply  relative block py-4 w-full lg:text-xl font-medium cursor-pointer no-underline;
 }
 .nav-item{
   @apply flex-1 border border-transparent rounded-lg text-center text-gray-400;
