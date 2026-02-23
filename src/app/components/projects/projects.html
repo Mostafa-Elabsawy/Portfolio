@@ -1,3 +1,8 @@
-<section class="container mx-auto py-4 h-screen">
-    <h1 class="text-3xl md:text-5xl block text-center text-(--main) font-semibold">Projects</h1>
+<section class="container mx-auto py-8 ">
+  <h1 class="text-3xl md:text-5xl text-center font-semibold text-(--main) mb-12">My Projects</h1>
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+    <app-project-temp [details]="project1"></app-project-temp>
+    <app-project-temp [details]="project2"></app-project-temp>
+    <app-project-temp [details]="project3"></app-project-temp>
+  </section>
 </section>

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+.social a{
+  display: inline-block;
+  background-color: #202327;
+  padding: 20px;
+  border-radius: 10px;
+  aspect-ratio:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:transform 0.2s ease , color 0.2s ease;
+  box-shadow: 0px 0px 15px #ffffff1c;
+  cursor: pointer;
+}
+.social a:hover
+{
+  color:var(--p-primary-500);
+  transform: translateY(-10px);
+
+}
+.social a i{
+  font-size: 1.6rem;
+}
+
+
+/* ===== Contact Layout ===== */
+
+/* ===== Form Card ===== */
+.form-contact {
+  @apply flex-1 bg-[#1f2125] p-6 rounded-2xl shadow-lg;
+}
+
+.form-contact form {
+  @apply flex flex-col gap-4;
+}
+
+/* ===== Inputs ===== */
+.form-contact input,
+.form-contact textarea {
+  @apply bg-[#2a2d32] text-white p-3 rounded-lg outline-none 
+         focus:ring-2 focus:ring-(--p-primary-300) transition;
+}
+
+.form-contact textarea {
+  @apply min-h-[120px] resize-none;
+}
+
+
+/* ===== Info Wrapper (no social styling) ===== */

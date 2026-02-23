@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ButtonDirective } from "primeng/button";
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [ButtonDirective],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })

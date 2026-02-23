@@ -1,0 +1,29 @@
+<section class="flex flex-col bg-[#2A2C30] rounded-xl overflow-hidden h-full px-2 py-4">
+      <!-- Image -->
+      <div class="w-full p-2 aspect-video overflow-hidden flex items-center text-center">
+        <img [src]="details().image" alt="Project Image" class="w-full  border-0 rounded-lg ">
+      </div>
+
+      <!-- Description -->
+      <div class="p-4 flex flex-col justify-between flex-1">
+        <div>
+            <div class="flex mb-2">
+                <h2 class="text-xl font-bold  text-(--main) ">{{details().title}}</h2>
+                <div class="links ms-auto text-(--textcolor1) text-xl">
+                    <a [href]="details().link" class="p-2 me-2 bg-(--background1) rounded-full hover:text-(--main)"><i class="fa fa-globe hover:text-(--main)"></i></a>
+                    <a [href]="details().code" class="p-2 bg-(--background1) rounded-full hover:text-(--main)"><i class="fab fa-github hover:text-(--main)"></i></a>
+                </div>
+            </div>
+          <p class="text-(--textcolor1) mb-4">{{details().description}}</p>
+        </div>
+        <div>
+            <h1 class="text-(--main) font-semibold text-lg">Tools</h1>
+            <!-- Tools -->
+            <ul class="flex gap-2 tools">
+                @for (item of details().tools; track $index) {
+                    <li><img [src]="item" class="h-8 w-8"></li>
+                }
+            </ul>
+        </div>
+      </div>
+</section>

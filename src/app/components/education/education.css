@@ -8,17 +8,3 @@
     hover:-translate-y-1 hover:shadow-xl;
   }
 
-  .degree-title {
-    @apply text-lg font-semibold flex flex-wrap gap-1;
-    color: var(--textcolor1);
-  }
-
-  .degree-sub {
-    @apply text-sm mt-1;
-    color: var(--textcolor2);
-  }
-
-  .degree-meta {
-    @apply text-xs font-medium text-emerald-400 mt-2 inline-block;
-  }
-
