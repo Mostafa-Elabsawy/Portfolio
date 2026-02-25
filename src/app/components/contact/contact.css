@@ -26,9 +26,6 @@
 /* ===== Contact Layout ===== */
 
 /* ===== Form Card ===== */
-.form-contact {
-  @apply md:w-[50%] mx-auto p-6 rounded-2xl ;
-}
 
 .form-contact form {
   @apply flex flex-col gap-4;
@@ -37,8 +34,7 @@
 /* ===== Inputs ===== */
 .form-contact input,
 .form-contact textarea {
-  @apply bg-[#2a2d32] text-white p-3 rounded-lg outline-none 
-         focus:ring-2 focus:ring-(--p-primary-300) transition;
+  @apply bg-[#2a2d32] text-white p-3 rounded-lg outline-none w-full focus:ring-2 focus:ring-(--p-primary-300) transition;
 }
 
 .form-contact textarea {
