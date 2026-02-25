@@ -26,6 +26,10 @@
   #3cc38c 100%
 );
 }
+html
+{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #212428;
   /* height: 200vh; */

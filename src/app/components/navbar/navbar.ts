@@ -47,6 +47,7 @@ export class Navbar {
   }
 
   scrollTo(section: string) {
-    // this.activetab.set(section);
+    this.activetab.set(section);
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth', block:'start'});
   }
 }

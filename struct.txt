@@ -1,0 +1,129 @@
+Folder PATH listing for volume Windows
+Volume serial number is E217-1F93
+C:.
+¦   .editorconfig
+¦   .gitignore
+¦   .postcssrc.json
+¦   angular.json
+¦   notes.md
+¦   package-lock.json
+¦   package.json
+¦   README.md
+¦   struct.txt
+¦   tsconfig.app.json
+¦   tsconfig.json
+¦   tsconfig.spec.json
+¦   
++---public
+¦   ¦   favicon.ico
+¦   ¦   placeholder.png
+¦   ¦   
+¦   +---icons
+¦   ¦       angular-icon.svg
+¦   ¦       angular.svg
+¦   ¦       bootstrap.png
+¦   ¦       css3.png
+¦   ¦       CSS3_logo.svg.png
+¦   ¦       Git-Icon-1788C.png
+¦   ¦       git.png
+¦   ¦       github.svg
+¦   ¦       html5.webp
+¦   ¦       js.svg
+¦   ¦       mongodb.svg
+¦   ¦       nodejs-icon.svg
+¦   ¦       Octicons-mark-github.svg
+¦   ¦       primeng.png
+¦   ¦       tailwind.svg
+¦   ¦       typescript.svg
+¦   ¦       
+¦   +---images
+¦           image.png
+¦           img1.jpg
+¦           img2.jpg
+¦           img3.jpg
+¦           img4.jpg
+¦           img5.jpg
+¦           img6.jpg
+¦           img7.jpg
+¦           img8.webp
+¦           me.jpg
+¦           me.vertical.jpeg
+¦           project1.png
+¦           project2.png
+¦           project3.png
+¦           
++---src
+    ¦   index.html
+    ¦   main.ts
+    ¦   styles.css
+    ¦   
+    +---app
+        ¦   app.config.ts
+        ¦   app.css
+        ¦   app.html
+        ¦   app.routes.ts
+        ¦   app.ts
+        ¦   
+        +---components
+        ¦   +---about-me
+        ¦   ¦       about-me.css
+        ¦   ¦       about-me.html
+        ¦   ¦       about-me.ts
+        ¦   ¦       
+        ¦   +---contact
+        ¦   ¦       contact.css
+        ¦   ¦       contact.html
+        ¦   ¦       contact.ts
+        ¦   ¦       
+        ¦   +---education
+        ¦   ¦       education.css
+        ¦   ¦       education.html
+        ¦   ¦       education.ts
+        ¦   ¦       
+        ¦   +---footer
+        ¦   ¦       footer.css
+        ¦   ¦       footer.html
+        ¦   ¦       footer.ts
+        ¦   ¦       
+        ¦   +---hero
+        ¦   ¦       hero.css
+        ¦   ¦       hero.html
+        ¦   ¦       hero.ts
+        ¦   ¦       
+        ¦   +---navbar
+        ¦   ¦       navbar.css
+        ¦   ¦       navbar.html
+        ¦   ¦       navbar.ts
+        ¦   ¦       
+        ¦   +---projects
+        ¦   ¦   ¦   projects.css
+        ¦   ¦   ¦   projects.html
+        ¦   ¦   ¦   projects.ts
+        ¦   ¦   ¦   
+        ¦   ¦   +---project-temp
+        ¦   ¦           interface.ts
+        ¦   ¦           project-temp.css
+        ¦   ¦           project-temp.html
+        ¦   ¦           project-temp.ts
+        ¦   ¦           
+        ¦   +---services
+        ¦   ¦       services.css
+        ¦   ¦       services.html
+        ¦   ¦       services.ts
+        ¦   ¦       
+        ¦   +---skills
+        ¦           skills.css
+        ¦           skills.html
+        ¦           skills.ts
+        ¦           
+        +---utility
+            +---progress-bar
+            ¦       progress-bar.css
+            ¦       progress-bar.html
+            ¦       progress-bar.ts
+            ¦       
+            +---trash
+                    trash.css
+                    trash.html
+                    trash.ts
+                    
