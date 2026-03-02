@@ -1,0 +1,7 @@
+@import "tailwindcss";
+hr{
+    @apply container mx-auto border rounded-3xl border-(--line) lg:my-8 my-5;
+}
+#About,#Services,#Contact,#Projects{
+    @apply scroll-mt-24;
+}
