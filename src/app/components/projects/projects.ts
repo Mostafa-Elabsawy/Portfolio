@@ -10,12 +10,12 @@ import{ template,init_value } from './project-temp/interface'
 })
 export class Projects {
   project1: template = {
-    title: 'Portfolio',
+    title: 'Pizza Resturant',
     description:
-      'A responsive personal portfolio showcasing my projects, skills, and experience with a clean, modern, mobile-friendly design.',
-    image: './images/project1.png',
+      'A responsive business landing page designed to present offerings, attract users, and provide clear call-to-action sections.',
+    image: './Project2.png',
     code: '',
-    link: '',
+    link: 'https://pizza-resturant-silk.vercel.app',
     tools: [
       'icons/html5.webp',
       'icons/css3.png',
@@ -25,28 +25,22 @@ export class Projects {
       'icons/tailwind.svg',
     ],
   };
+  project2: template = {
+    title: 'Marketing',
+    description:
+      'A responsive personal portfolio showcasing my projects, skills, and experience with a clean, modern, mobile-friendly design.',
+    image: './Project1.png',
+    code: '',
+    link: 'https://nova-gray-nine.vercel.app',
+    tools: ['icons/html5.webp', 'icons/css3.png', 'icons/js.svg', 'icons/bootstrap.png'],
+  };
   project3: template = {
-    title: 'Login & Signup interface',
+    title: 'Landing page',
     description:
       'A responsive front-end project that demonstrates login and signup interfaces with form validation and clean user experience.',
-    image: './images/project3.png',
+    image: 'project3.png',
     code: '',
-    link: '',
+    link: 'https://my-landingpage-99.vercel.app/',
     tools: ['icons/html5.webp', 'icons/css3.png', 'icons/js.svg'],
-  };
-
-  project2: template = {
-    title: 'Bussiness marketing',
-    description:
-      'A responsive business landing page designed to present offerings, attract users, and provide clear call-to-action sections.',
-    image: './images/project2.png',
-    code: '',
-    link: '',
-    tools: [
-      'icons/html5.webp',
-      'icons/css3.png',
-      'icons/js.svg',
-      'icons/bootstrap.png'
-    ],
   };
 }
