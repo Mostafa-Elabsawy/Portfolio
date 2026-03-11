@@ -5,7 +5,7 @@
 
 .animated-text span::before{
     content: "SoftwareEngineer";
-    animation: words 16s infinite;
+    animation: words 10s infinite;
 }
 
 .animated-text span::after{
@@ -16,7 +16,7 @@
     background-color: #212428;
     border-left: 2px solid var(--p-primary-500);
     right: -8px;
-    animation: cursor .8s infinite, typing 16s steps(14) infinite;
+    animation: cursor .8s infinite, typing 10s steps(14) infinite;
 }
 
 @keyframes cursor {
